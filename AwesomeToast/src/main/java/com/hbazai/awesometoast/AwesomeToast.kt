@@ -76,6 +76,14 @@ class AwesomeToast private constructor(
             return pop(prepareError(context, message, duration))
         }
 
+        fun popInfo(
+            context: Context,
+            message: CharSequence,
+            duration: Int
+        ): Toast {
+            return pop(prepareInfo(context, message, duration))
+        }
+
 
         private fun prepare(context: Context, message: CharSequence, duration: Int): AwesomeToast {
             return prepare(context, message, null, duration)
