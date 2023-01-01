@@ -21,4 +21,16 @@ Step 2. Add the dependency
 ## Here some examples:
 
 	            AwesomeToast.popSuccess(this, "This is a success toast",AwesomeToast.LENGTH_LONG).show()
-  <img align="center" src="https://github.com/BazaiHassan/images/blob/main/awesometoast/1672537817485.jpg"/>
+<img align="center" src="https://github.com/BazaiHassan/images/blob/main/awesometoast/1672537817512.jpg"/>
+  
+  	            AwesomeToast.popInfo(this, "This is an info toast",AwesomeToast.LENGTH_LONG).show()
+<img align="center" src="https://github.com/BazaiHassan/images/blob/main/awesometoast/1672537817495.jpg"/>
+
+	            AwesomeToast.popError(this, "This is an error toast",AwesomeToast.LENGTH_LONG).show()
+<img align="center" src="https://github.com/BazaiHassan/images/blob/main/awesometoast/1672537817485.jpg"/>
+
+	            AwesomeToast.popWarning(this, "This is a warning toast",AwesomeToast.LENGTH_LONG).show()
+<img align="center" src="https://github.com/BazaiHassan/images/blob/main/awesometoast/1672537817504.jpg"/>
+
+
+
